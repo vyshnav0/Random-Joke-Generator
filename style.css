@@ -1,0 +1,94 @@
+body {
+    /* background: url(https://img.freepik.com/free-vector/emoticons-with-empty-space-background_79603-1023.jpg?size=626&ext=jpg) ; */
+    background-image: url(https://freedesignfile.com/upload/2020/09/Laugh-with-tears-emoji-background-vector.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 800;
+    font-size: 45px;
+    /* color: #fab22e; */
+    color: rgba(27, 15, 15, 0.89);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4%;
+    width: 60%;
+    height: 300px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+
+}
+
+.container p {
+    padding: 0;
+    text-align: center;
+    font-size: 26px;
+    margin: auto;
+    color: #fab22e;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 35px;
+}
+
+
+.btn-class {
+    text-align: center;
+    margin-top: 6%;
+}
+
+button {
+    height: 3em;
+    width: 14em;
+    border: none;
+    border-radius: 10em;
+    background: #016DD9;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    animation: shake3856 0.3s linear infinite both;
+}
+
+@keyframes shake3856 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
