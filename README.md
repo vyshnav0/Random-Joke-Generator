@@ -9,6 +9,7 @@ Welcome to the Random Joke Generator! This web app allows you to generate and en
 - [Usage](#usage)
 - [Technologies](#technologies)
 - [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
 - [License](#license)
 
 ## About
@@ -16,12 +17,15 @@ Welcome to the Random Joke Generator! This web app allows you to generate and en
 The Random Joke Generator is a simple web application that fetches random jokes from the JokeAPI and displays them on the screen. It provides two types of jokes: single-line jokes and two-part jokes.
 
 The application is built using HTML, CSS for styling, and JavaScript for fetching data from the API and updating the content on the page.
-
+    
 ## Getting Started
 
 To get started with the Random Joke Generator, simply follow these steps:
 
 1. Clone this repository to your local machine.
+```bash
+  git clone https://github.com/vyshnav0/Random-Joke-Generator.git
+```
 2. Open the `index.html` file in your web browser.
 
 That's it! You're ready to start generating and enjoying random jokes.
@@ -39,11 +43,17 @@ The project is built using the following technologies:
 - HTML
 - CSS (including the [animate.css](https://animate.style/) library for animations)
 - JavaScript
-- JokeAPI (for fetching random jokes)
+- [JokeAPI](https://v2.jokeapi.dev/) (for fetching random jokes)
 
 ## Contributing
 
 Contributions to this project are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
+
+## Acknowledgments
+
+I would like to acknowledge the following tutorial that served as a valuable reference while developing this project:
+- [Random Joke Generator Javascript](https://codingartistweb.com/2021/08/random-joke-generator-javascript/) by [Coding Artist](https://codingartistweb.com/)
+
 
 ## License
 
