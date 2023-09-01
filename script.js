@@ -3,6 +3,7 @@ const jokeDelivery = document.getElementById("joke-delivery");
 const btn = document.getElementById("btn");
 const btn1 = document.getElementById("btn1");
 const url = "https://v2.jokeapi.dev/joke/Any";
+// const url = "https://v2.jokeapi.dev/joke/Any?type=single";
 
 let currentJoke;
 let getJoke = () => {
@@ -19,6 +20,7 @@ let getJoke = () => {
             btn1.style.display = "none";
             jokeBox.textContent = `${item.joke}`;
             jokeDelivery.textContent = ""; 
+            console.log(item.joke);
         }
     })
     .catch(err => {
@@ -33,4 +35,3 @@ let showJoke=()=>{
 }
 btn.addEventListener("click", getJoke);
 btn1.addEventListener("click", showJoke);
-// getJoke();
